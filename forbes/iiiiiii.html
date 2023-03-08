@@ -1,0 +1,311 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <title>Forbes Brasil</title>
+        <link rel="icon" type="image/png" href="imagens/forbes.png"/>
+
+
+
+
+        <style>
+            .fontetimes{
+              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              font-weight: bolder;
+            }
+            .linha1{
+              margin-top: 20px;  
+            }
+            a{
+              color: black;
+              text-decoration: none;
+            }
+            .notpequena{
+              font-family: 'Work Sans', sans-serif;
+              color: #444444;
+              font-size: 13px;
+            }
+            .carousel-control-next,.carousel-control-prev{
+              filter: invert(100%);
+            }
+            .imgredondo{
+              border-radius: 100px;
+            }
+            .legstories{
+              font-size: 11px;
+              font-family: 'Work Sans Medium', sans-serif !important;
+              color: #151515;
+              line-height: 1em;
+            }
+            .linksfooter{
+              text-decoration: none;
+              color: white !important;
+              font-size: 17px;
+              font-weight: bolder;
+              font-family: 'Merriweather', serif;
+              padding-bottom: 27px;
+            }
+            .cd100{
+              width: 200px;
+              border-right: 2px solid grey;
+
+            }
+            li{
+              margin-bottom: 10px;
+            }
+            .icone{
+              width: 25px;
+              height: 25px;
+            }
+            
+        </style>
+
+
+    </head>
+    <body>
+
+      <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid ">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+                <div class="fs-2 text-white fontetimes">Forbes</div>
+                <button type="button" class="btn btn-outline-light me-4">Assine</button>
+            </div>
+          </nav>
+        </header>
+          <!-- aqui acaba o cabeçalho do site! -->
+
+
+        <div class="container justify-content-center">
+
+
+          <div class="row linha1">
+            <div class="card col-5 h-100px " style="border-style: none;"">
+              <img class="w-auto" src="imagens/Money.png" alt="Imagem de dinheiro">
+            </div>
+
+            <div class="card col-3 h-100px " style="border-style: none;"">
+              <div class="card-body">
+                <a href="#"> <h2 class="card-title d-flex" style="color: #262626">Bilionários brasileiros que mais ganharam e perderam dinheiro na semana </h2> </a>
+                <p class="card-text notpequena">Fortuna dos bilionários brasileiros na lista global da Forbes totalizou R$ 712 bilhões nos últimos cinco dias. </p>
+              </div>
+            </div>
+
+            <div class="card col h-100px " style="border-style: none; border-left: solid #d3d3d3">
+              <img class="card-img-top" src="imagens/FechamentodaBolsa.png" alt="Imagem de grafico">
+              <div class="card-body">
+                <a href="#"> <h6 class="card-title">Ibovespa fecha em alta com recuperação de Petrobras</h6> </a>
+                <p class="card-text notpequena">Lula afirmou que o Brasil pode sofrer uma crise de crédito “logo logo” se o Banco Central não abaixar a taxa de juros, atualmente em 13,75% </p>
+              </div>
+            </div>
+            <div class="card col h-100px " style="border-style: none; border-left: solid #d3d3d3">
+              <img class="card-img-top" src="imagens/praia.png" alt="Imagem de praia">
+              <div class="card-body">
+                <a href="#"> <h6 class="card-title">5 destinos brasileiros que são perfeitos para conhecer de iate </h6> </a>
+                <p class="card-text notpequena"> Embarcação privada permite desbravar regiões isoladas e conhecer belas paisagens com mais conforto e tranquilidade </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row linha1"> <!--  aqui começa a div do row titulo com caixa preta -->
+            <div class="col-5">
+              <hr style="border-color: #000000; border: solid 2px; margin: 0px;">
+              <span style="background: #151515; color: white; padding: 8px 16px; font-family: 'Work Sans Medium', sans-serif; font-size: 11px;">WEB STORIES</span>
+            </div>
+          
+            <div class="col-7">
+              <hr style="border-color: #000000; border: solid 2px; margin: 0px;">
+              <span style="background: #151515; color: white; padding: 8px 16px; font-family: 'Work Sans Medium', sans-serif; font-size: 11px;">MAIS POPULARES</span>
+            </div>
+          </div> <!--  aqui fecha a div do row titulo com caixa preta -->
+
+          <div class="row linha1"> <!--  aqui começa a div do row imagem redonda e carrossel  -->
+
+            <div class="col-5 d-flex">
+              <div class="card me-5" style="width: 30%; border-style: none">
+                <img src="imagens/mulher.png" class="card-img-top imgredondo">
+                <div class="card-body">
+                  <p class="card-text legstories" style="text-align: center;">Como liderar uma equipe mais velha que você</p>
+                </div>
+              </div>
+              <div class="card me-5" style="width: 30%; border-style: none">
+                <img src="imagens/sono.png" class="card-img-top imgredondo">
+                <div class="card-body">
+                  <p class="card-text legstories" style="text-align: center;">Como desligar seu cérebro à noite e dormir melhor</p>
+                </div>
+              </div>
+              <div class="card" style="width: 30%; border-style: none; border-right: solid #d3d3d3"> 
+                <img src="imagens/loja.png" class="card-img-top imgredondo">
+                <div class="card-body">
+                  <p class="card-text legstories" style="text-align: center;">Sete lições da Americanas para o pequeno investidor</p>
+                </div>
+              </div>
+            </div> <!--aqui acaba a div col-5 com as imagens redondas -->
+            <div class="col-7"> <!--aqui começa o carrossel -->
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active row h-100px">
+                    <div class="d-inline-block cd100">                      
+                        As dez pessoas mais ricas do mundo                             
+                    </div>
+                    <div class="d-inline-block cd100">                    
+                        As dez pessoas mais ricas do mundo
+                    </div>
+                    <div class="d-inline-block cd100">                      
+                        As dez pessoas mais ricas do mundo                                      
+                    </div>
+                    
+                  </div>
+                  <div class="carousel-item row h-100px">
+                    <div class="d-inline-block cd100">                      
+                        As dez pessoas mais ricas do mundo                             
+                    </div>
+                    <div class="d-inline-block cd100">                    
+                        As dez pessoas mais ricas do mundo
+                    </div>
+                    <div class="d-inline-block cd100">                      
+                        As dez pessoas mais ricas do mundo                                      
+                    </div>
+                  </div>
+                  <div class="carousel-item row h-100px">
+                    <div class="d-inline-block cd100">                      
+                        As dez pessoas mais ricas do mundo                             
+                    </div>
+                    <div class="d-inline-block cd100">                    
+                        As dez pessoas mais ricas do mundo
+                    </div>
+                    <div class="d-inline-block cd100">                      
+                        As dez pessoas mais ricas do mundo                                      
+                    </div>
+                  </div>
+                </div>
+              </div> <!--aqui acaba o carrossel -->
+            </div> <!--  aqui fecha a div do row imagem redonda e carrossel  -->
+
+            <div class="row linha1"> <!--  aqui começa a div do row titulo branded com caixa preta -->
+              <div class="">
+                <hr style="border-color: #000000; border: solid 2px; margin: 0px;">
+                <span style="background: #151515; color: white; padding: 8px 16px; font-family: 'Work Sans Medium', sans-serif; font-size: 11px;"> BRANDED </span>
+              </div>
+            </div> <!--  aqui acaba a div do row titulo com caixa preta -->
+
+
+            <div class="row linha1"> <!-- aqui começa o carrossel grande -->
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imagens/disney.png" class="d-block w-50 mx-auto text-center" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="mt-2">Um novo jeito de ir para a Disney</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagens/luxo.png" class="d-block w-50 mx-auto text-center" alt="...">
+                    <div class="carousel-caption d-none d-md-block mb-8">
+                      <h5>Herdeiros do Luxo</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagens/taça.png" class="d-block w-50 mx-auto text-center" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="mt-2">A taça é delas</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>  <!-- aqui acaba o carrossel grande -->
+          </div> 
+        </div>   <!-- container???? -->
+
+            <footer class="bg-dark text-light mt-3" style="height: 300px;">
+              <div class="container-fluid py-3">
+                <div class="row">
+                  <div class="col-5">
+                    <p class="fs-2 text-white fontetimes" style="margin-left: 70px;" >Forbes</p>
+                  </div>
+                  <div class="col-2"> <!-- redes sociais p1 -->
+                    <ul class="nav flex-column mt-3">
+                      <li> <img class="icone" src="https://cdn-icons-png.flaticon.com/512/1077/1077041.png"><a class="linksfooter" href="#"> — @forbesbr </a></li>
+                      <li> <img class="icone" src="https://cdn-icons-png.flaticon.com/512/1944/1944524.png"><a class="linksfooter" href="#"> — @forbesbr </a></li>
+                      <li> <img class="icone" src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"><a class="linksfooter" href="#"> — @forbesbr </a></li>
+                      <li> <img class="icone" src="https://cdn-icons-png.flaticon.com/512/3938/3938035.png"><a class="linksfooter" href="#"> — yt/forbesbr </a></li>
+                      <li> <img class="icone" src="https://cdn-icons-png.flaticon.com/512/220/220343.png"><a class="linksfooter" href="#"> — forbes brasil </a></li>
+
+                  </div>
+                  <div class="col-2"> <!-- redes sociais p2 -->
+                    <ul class="nav flex-column mt-3">
+                      <li><a class="linksfooter" href="#">Forbes Br. </a></li>
+                      <li><a class="linksfooter" href="#">+ Sobre nós </a></li>
+                      <li><a class="linksfooter" href="#">+ Revista digital </a></li>
+                      <li><a class="linksfooter" href="#">+ Anuncie </a></li>
+                      <li><a class="linksfooter" href="#">+ Contato </a></li>
+                  </div>
+                  <div class="col-2"> <!-- redes sociais p3 -->
+                    <ul class="nav flex-column mt-3 ">
+                      <li><a class="linksfooter" href="#">Links Úteis</a></li>
+                      <li><a class="linksfooter" href="#">+ Política de Privacidade</a></li>
+                      <li><a class="linksfooter" href="#">+ Newsletter</a></li>
+                      <li><a class="linksfooter" href="#">Cotações por TradingView </a></li>
+                  </div>
+
+                </div>
+              </div>
+
+
+             </footer>
+             <div style="background-color: white; height: 60px; color: grey; text-align: center; margin-top: 10px;">
+             <p>© Forbes 2023. Todos os direitos reservados.</p>
+             </div>
+
+  </body>
+  </html>
+
+          
